@@ -6,7 +6,7 @@ import { Component } from "@angular/core";
 // is a standalone component. Else, it is a module based component.
 @Component({
     selector: 'app-header',
-    standalone: true,
+    standalone: false,
     templateUrl: './header.component.html',
     styleUrl: './header.component.css',
 })
